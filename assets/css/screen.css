@@ -1184,7 +1184,7 @@ Search                         LOGO                    Login Subscribe
     }
 
     .gh-header.is-magazine .gh-card::before {
-        display: block !important;
+        display: none !important;
         position: absolute;
         top: calc(var(--grid-gap) / -2);
         left: 0;
@@ -1289,6 +1289,7 @@ Search                         LOGO                    Login Subscribe
 
 .gh-header.is-highlight .gh-card::before {
     position: absolute;
+    display: none;
     top: calc(var(--grid-gap) / -2);
     left: 0;
     content: "";
