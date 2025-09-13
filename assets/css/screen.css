@@ -124,7 +124,6 @@ input, button, textarea, select {
 
 p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
-    line-height: 2;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1984,6 +1983,8 @@ Search                         LOGO                    Login Subscribe
     word-break: break-word;
 }
 
+.gh-article
+
 .gh-article-header {
     margin: clamp(40px, 3.64vw + 25.45px, 72px) 0 40px;
 }
@@ -1999,7 +2000,7 @@ Search                         LOGO                    Login Subscribe
 
 .gh-article-title {
     font-size: calc(clamp(3.4rem, 1.36vw + 2.85rem, 4.6rem) * var(--factor, 1));
-    line-height: 1.1;
+    line-height: 1.75;
     letter-spacing: -0.022em;
     text-decoration: wavy underline 2.5px;
     text-underline-offset: 15px;
