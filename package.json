@@ -213,5 +213,9 @@
         "extends": [
             "@tryghost:theme"
         ]
+    },
+    "dependencies": {
+        "caniuse-lite": "^1.0.30001741",
+        "update-browserslist-db": "^1.1.3"
     }
 }
